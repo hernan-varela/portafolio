@@ -1,0 +1,54 @@
+.contenedor {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  margin-top: -50px;
+  padding-top: 50px;
+}
+
+.imgLaptop{
+  width: 30rem;
+  
+}
+
+.typewriterContainer {
+  font-size: 24px;
+  font-weight: bold;
+  color: white;
+  width: 50rem;
+  /* otros estilos aquí */
+}
+
+
+.imgAndText{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  
+}
+
+.animationContainer{
+  width: 45rem;
+}
+.contIam{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.contIam h4{
+  padding: 1rem;
+}
+
+
+
+
+
+  
+ 
+
+  
