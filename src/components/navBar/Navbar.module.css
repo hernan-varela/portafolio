@@ -2,7 +2,8 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background: linear-gradient(to right, rgba(3, 3, 93, 0.8), rgba(144, 5, 5, 0.8));
+  /* background: linear-gradient(to right, rgba(8, 8, 8, 0.749), rgba(53, 202, 16, 0.714)); */
+  background-color: rgba(16, 255, 4, 0.07);
   position: fixed;
   top: 0;
   left: 0;

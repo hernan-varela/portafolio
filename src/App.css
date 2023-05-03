@@ -1,4 +1,6 @@
 #root {
+  position: relative; /* Agrega posición relativa al contenedor principal */
+  min-height: 100vh; /* Establece la altura mínima del contenedor principal al 100% de la altura de la ventana */
   text-align: center;
   width: 100%;
   margin: 0;

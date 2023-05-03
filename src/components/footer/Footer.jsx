@@ -1,17 +1,29 @@
 import React from "react";
-import { Link } from "react-router-dom";
-import styles from "../footer/Footer.jsx"
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons';
+import styles from "../footer/Footer.module.css";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faLinkedin, faGithub } from "@fortawesome/free-brands-svg-icons";
 
 const Footer = () => {
-    return (
-        <div>
-            <a href="https://www.linkedin.com/in/HernanNicolasVarela"> <FontAwesomeIcon icon={faLinkedin} /> </a>
+  return (
+    <div className={styles.contFooter}>
+      <p>Designed and Developed by Hernan N. Varela</p>
 
-            <a href="https://github.com/hernan-varela"> <FontAwesomeIcon icon={faGithub} /> </a>
-        </div>
-    )
-}
+      <div>
+        <a
+          className={styles.icon}
+          href="https://www.linkedin.com/in/HernanNicolasVarela"
+        >
+          {" "}
+          <FontAwesomeIcon className={styles.icon} icon={faLinkedin} />{" "}
+        </a>
+        <a className={styles.icon} href="https://github.com/hernan-varela">
+          {" "}
+          <FontAwesomeIcon className={styles.icon} icon={faGithub} />{" "}
+        </a>
+      </div>
+      <p> Copyright © 2023 SB </p>
+    </div>
+  );
+};
 
-export default Footer
+export default Footer;

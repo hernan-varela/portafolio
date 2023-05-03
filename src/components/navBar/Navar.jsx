@@ -4,8 +4,7 @@ import iconImg from "../../assets/images/sticker.png"
 import iconImgHover from "../../assets/images/stickerHoverNav.png"
 import logo from "../../assets/images/logo_white_large.png"
 import styles from "../navBar/NavBar.module.css"
-import Lottie from "lottie-web";
-import webDevImg from "../../assets/loties/img_lootie_devweb.json";
+
 
 const NavBar = () => {
     
@@ -25,8 +24,8 @@ const NavBar = () => {
         <> 
             <div className={styles.contNavBar}>
                 <Link className={styles.toHome} to={"/"} onMouseEnter={handleHover} onMouseLeave={handleLeave}>
-                    <img className={styles.imgIcon} src={isHover ? iconImgHover : iconImg}  alt="icon" srcset="" />
-                    <img className={styles.logo} src={logo} alt="icon" srcset="" />
+                    <img className={styles.imgIcon} src={isHover ? iconImgHover : iconImg}  alt="icon" srcSet="" />
+                    <img className={styles.logo} src={logo} alt="icon" srcSet="" />
 
                 </Link>
                 <div className={styles.listNav}>
