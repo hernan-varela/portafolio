@@ -1,39 +1,40 @@
 import React, { useEffect, useMemo } from "react";
 import styles from "./Home.module.css";
 import Typewriter from "typewriter-effect";
-import DeveloperHome from "../../components/Animation/DeveloperHome"
-
+import DeveloperHome from "../../components/Animation/DeveloperHome";
+import 'animate.css'
 
 const Home = () => {
-    
   return (
-    <div className={styles.container}>
-      <div className={styles.imgAndText}>
+    <div className={`${styles.contFather} animate__animated animate__bounceInDown`}>
+      <div className={styles.container}>
+        <div className={styles.imgDeveloper}>
+          <DeveloperHome />
+        </div>
 
-        
-        <div className={styles.typewriterContainer}>
-        <DeveloperHome />
-          <h3>Hi there !! 👋🏻</h3>
-          <h4>I'm Hernan N. Varela</h4>
+        <div className={styles.textTypWri}>
+          <h1>Hello world !!</h1>
+          <h1 className={styles.animatedText}>
+            <span>My name is Hernan N. Varela. </span>
+          </h1>
 
-          <div className={styles.iamContainer}>
-            <h4>I AM </h4>
+          <div className={styles.textIam}>
+            <span className={styles.span}>I am </span>
             <Typewriter
               options={{
                 strings: [
-                  " a computer engineering student",
-                  " a full stack jr web developer",
+                  " Full stack Javascript  web develo´per jr  ",
+                  " estudiante de la carrera ingenieria en informatica",
+                  "Tecnico en repacacion de celulares"
                 ],
                 autoStart: true,
                 loop: true,
-                pauseFor: 1000,
+                delay: 30,
               }}
             />
           </div>
         </div>
-             
       </div>
-    
     </div>
   );
 };

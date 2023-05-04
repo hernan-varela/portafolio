@@ -1,4 +1,6 @@
-.container {
+@import url('https://fonts.googleapis.com/css2?family=Bruno+Ace&display=swap');
+
+.contFather{
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -6,51 +8,71 @@
   background-size: cover;
   background-position: center;
   height: 100vh;
-  margin-top: -50px;
-  padding-top: 50px;
+
+}
+.container{
+  display: flex;
+  min-width: 60%;
+  min-height: 75%;
+  position: absolute;
+  background-color: rgba(31, 31, 31, 0.525);
+  align-items: center;
+  border-radius: 25% 10%;
 }
 
-.img{
+
+.imgDeveloper{
   width: 30rem;
   
 }
 
-.typewriterContainer {
-  position: absolute;
-  font-size: 24px;
+
+
+.textTypWri {
+  display: flex;
+  flex-direction: column;
+  color: rgb(253, 86, 9);
+  font-family: 'Bruno Ace';
   font-weight: bold;
-  color: white;
-  width: 50rem;
-  /* otros estilos aquí */
-}
-
-
-.imgAndText{
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
-  margin-bottom: 8.5rem;
-  
-}
-
-.animationContainer{
-  width: 45rem;
-}
-.contIam{
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.contIam h4{
-  padding: 1rem;
-}
-
-
-
-
-
-  
  
+}
 
+.textIam{
+  display: flex;
+  align-items: center;
   
+}
+
+.span{
+  margin-left: 10rem;
+  margin-right: 1rem;
+}
+
+.animatedText {
+  overflow: hidden; /* Esconde el texto que se escribirá */
+  border-right: .15em solid orange; /* Crea un borde que se verá como si se estuviera escribiendo */
+  white-space: nowrap; /* Evita que el texto se divida en varias líneas */
+  margin: 0; /* Quita el margen predeterminado para el primer elemento h1 */
+  display: inline-block; /* Permite que el borde creado ocupe solo el ancho necesario para el texto */
+  animation: typing 3s steps(40, end), blink-caret .75s step-end infinite;
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+@keyframes blink-caret {
+  from,
+  to {
+    border-color: transparent;
+  }
+  50% {
+    border-color: orange;
+  }
+}
+
