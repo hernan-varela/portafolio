@@ -1,6 +1,6 @@
-.contenedor {
+.container {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
   justify-content: center;
   background-size: cover;
@@ -10,12 +10,13 @@
   padding-top: 50px;
 }
 
-.imgLaptop{
+.img{
   width: 30rem;
   
 }
 
 .typewriterContainer {
+  position: absolute;
   font-size: 24px;
   font-weight: bold;
   color: white;

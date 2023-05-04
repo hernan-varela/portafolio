@@ -5,7 +5,7 @@ import Home from "./views/Home/home";
 import NavBar from "./components/navBar/Navar";
 import Footer from "./components/footer/Footer";
 import Education from "./views/Education/Education";
-import TsPracticle from "./components/TsPracticle";
+import TsPracticle from "./components/Animation/TsPracticle";
 
 function App() {
   return (
