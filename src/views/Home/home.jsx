@@ -1,4 +1,5 @@
 import React, { useEffect, useMemo } from "react";
+import { Link } from "react-router-dom";
 import styles from "./Home.module.css";
 import Typewriter from "typewriter-effect";
 import DeveloperHome from "../../components/Animation/DeveloperHome";
@@ -23,9 +24,9 @@ const Home = () => {
             <Typewriter
               options={{
                 strings: [
-                  " Full stack Javascript  web develo´per jr  ",
-                  " estudiante de la carrera ingenieria en informatica",
-                  "Tecnico en repacacion de celulares"
+                  " full stack Javascript  web developer jr  ",
+                  " study computer science engineering",
+                  "cell phone repair technician"
                 ],
                 autoStart: true,
                 loop: true,
@@ -33,8 +34,11 @@ const Home = () => {
               }}
             />
           </div>
+          < Link className= {styles.btnAboutMe} to={"/AboutMe"} >About Me</Link>
         </div>
+        
       </div>
+      
     </div>
   );
 };

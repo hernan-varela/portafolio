@@ -1,8 +1,8 @@
 import React from "react";
-import style from "./Education.module.css";
+import style from "./AboutMe.module.css";
 import 'animate.css'
 
-const Education = () => {
+const AboutMe = () => {
   return (
     <div className={`${style.contFather} animate__animated animate__bounceInDown`}>
       <div className={style.container}>
@@ -12,4 +12,4 @@ const Education = () => {
   );
 };
 
-export default Education;
+export default AboutMe;

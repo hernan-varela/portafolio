@@ -40,9 +40,29 @@
 .textIam{
   display: flex;
   align-items: center;
+  margin: 1rem;
+  font-size: 1.4rem;
   
 }
+.btnAboutMe{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(253, 86, 9, 0.533);
+  color: white;
+  width: 8rem;
+  height: 3rem;
+  margin-top: 10%;
+  margin-left: 34%;
+  border-radius:  35% 15%;
+}
 
+.btnAboutMe:hover{
+  background-color: rgba(31, 31, 31, 0.525);
+  color: rgb(253, 86, 9);
+  border: 1px solid rgb(253, 86, 9);
+  
+}
 .span{
   margin-left: 10rem;
   margin-right: 1rem;

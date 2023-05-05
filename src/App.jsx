@@ -6,6 +6,7 @@ import NavBar from "./components/navBar/Navar";
 import Footer from "./components/footer/Footer";
 import Education from "./views/Education/Education";
 import TsPracticle from "./components/Animation/TsPracticle";
+import AboutMe from "./views/AboutMe/AboutMe";
 
 function App() {
   return (
@@ -33,6 +34,15 @@ function App() {
               </div>
             }
           />
+
+          <Route
+            path="/AboutMe"
+            element={
+              <div>
+                <AboutMe/>
+              </div>
+            }
+          />
         </Routes>
 
         <footer>
@@ -43,4 +53,4 @@ function App() {
   );
 }
 
-export default App
+export default App;

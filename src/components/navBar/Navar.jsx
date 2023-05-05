@@ -23,11 +23,12 @@ const NavBar = () => {
     return (
         <> 
             <div className={styles.contNavBar}>
+                
                 <Link className={styles.toHome} to={"/"} onMouseEnter={handleHover} onMouseLeave={handleLeave}>
                     <img className={styles.imgIcon} src={isHover ? iconImgHover : iconImg}  alt="icon" srcSet="" />
                     <img className={styles.logo} src={logo} alt="icon" srcSet="" />
-
                 </Link>
+
                 <div className={styles.listNav}>
                     <Link className={styles.Link} to={"/education"}>Education</Link>
                     <Link className={styles.Link} to={"/contact"} >Contact</Link>
@@ -35,8 +36,8 @@ const NavBar = () => {
                     <Link className={styles.Link} to={"/contact"} >Contact</Link>
                     <Link className={styles.Link} to={"/proyect"} >Proyect</Link>
                     <Link className={styles.Link} to={"/resume"} >Resume</Link>
-
                 </div>
+
             </div>
         </>
     )

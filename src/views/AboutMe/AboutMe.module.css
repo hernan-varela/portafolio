@@ -1,0 +1,20 @@
+
+.contFather{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+  
+  }
+  .container{
+    display: flex;
+    min-width: 60%;
+    min-height: 75%;
+    position: absolute;
+    background-color: rgba(31, 31, 31, 0.525);
+    align-items: center;
+    border-radius: 25% 10%;
+  }
