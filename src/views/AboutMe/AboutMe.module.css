@@ -1,20 +1,39 @@
+@import url("https://fonts.googleapis.com/css2?family=Bruno+Ace&display=swap");
+.contFather {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
+.container {
+  display: flex;
+  max-width: 70%;
+  min-height: 75%;
+  position: absolute;
+  background-color: rgba(31, 31, 31, 0.525);
+  align-items: center;
+  border-radius: 25% 10%;
+}
 
-.contFather{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    background-size: cover;
-    background-position: center;
-    height: 100vh;
+.text {
+ 
+  color: rgb(253, 86, 9);
+  font-family: "Bruno Ace";
+  font-weight: bold;
+  font-size: 1.5rem;
   
-  }
-  .container{
-    display: flex;
-    min-width: 60%;
-    min-height: 75%;
-    position: absolute;
-    background-color: rgba(31, 31, 31, 0.525);
-    align-items: center;
-    border-radius: 25% 10%;
-  }
+}
+
+.contImgText{
+  display: flex;
+  width: 60%;
+  text-align:justify;
+  margin-left: 2rem;
+}
+
+.image{
+  width: 30rem;
+}
