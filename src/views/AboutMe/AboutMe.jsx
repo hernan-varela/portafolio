@@ -29,6 +29,7 @@ const AboutMe = () => {
           </span>
         </div>
       </div>{" "}
+      {/* falta agregar  un boton hacia contact me!  */}
     </div>
   );
 };
