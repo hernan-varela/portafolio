@@ -7,6 +7,8 @@ import Footer from "./components/footer/Footer";
 import Education from "./views/Education/Education";
 import TsPracticle from "./components/Animation/TsPracticle";
 import AboutMe from "./views/AboutMe/AboutMe";
+import Skils from "./views/Skils/Skils";
+import ContactForm from "./views/ContactForm/ContactForm";
 
 function App() {
   return (
@@ -43,6 +45,12 @@ function App() {
               </div>
             }
           />
+
+          <Route path="/skils" element={<div><Skils/></div>} />
+
+          <Route path="/contact" element={<div><ContactForm/></div>} />
+
+
         </Routes>
 
         <footer>

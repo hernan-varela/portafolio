@@ -3,7 +3,8 @@ import { Link } from "react-router-dom";
 import styles from "./Home.module.css";
 import Typewriter from "typewriter-effect";
 import DeveloperHome from "../../components/Animation/DeveloperHome";
-import 'animate.css'
+import 'animate.css';
+import Boton from "../../components/Boton/Boton";
 
 const Home = () => {
   return (
@@ -34,7 +35,8 @@ const Home = () => {
               }}
             />
           </div>
-          < Link className= {styles.btnAboutMe} to={"/AboutMe"} >About Me</Link>
+
+          <Boton text= "About Me" link="/AboutMe"  />
         </div>
         
       </div>

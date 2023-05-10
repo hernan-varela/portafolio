@@ -9,10 +9,11 @@ const CardStudy = ({ image, url, text }) => {
           <img src={image} alt="image not found" />{" "}
         </a>
       </header>
-      <section>
+      <section className= {styles.contText} >
         <span className={styles.text}>{text}</span>
+        <button className={styles.btn} > view more </button>
       </section>
-      <button className={styles.btn} > view more </button>
+      
     </div>
   );
 };

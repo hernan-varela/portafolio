@@ -1,0 +1,14 @@
+
+{
+  "unaj": {
+    "image": "../../assets/images/logo-transparente.png",
+    "url": "https://www.unaj.edu.ar/carreras/ingenieria-y-agronomia/ingenieria-informatica/",
+    "text": "I am a 2nd year student of Computer Engineering at the Arturo Jauretche National University, where I am developing my skills as a programmer and acquiring fundamental knowledge in the area of ​​technology."
+  },
+
+  "henry" : {
+    "image": "../../assets/images/logo-henry-white-lg.png",
+    "url": "",
+    "text": ""
+  }
+}

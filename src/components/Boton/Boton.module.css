@@ -1,0 +1,21 @@
+
+
+.btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(253, 86, 9, 0.533);
+    width: 8rem;
+    height: 3rem;
+    margin-top: 10%;
+    margin-left: 34%;
+    border-radius:  35% 15%;
+    color: white;
+  }
+  
+  .btn:hover{
+    color:  rgb(253, 86, 9);
+    background-color: rgba(31, 31, 31, 0.525);
+    color: rgb(253, 86, 9);
+    border: 1px solid rgb(253, 86, 9);
+  }

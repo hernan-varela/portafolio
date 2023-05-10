@@ -4,6 +4,8 @@
   overflow: hidden;
   width: 20rem;
   transition: box-shadow 0.3s ease-in-out;
+  height: 25rem;
+  margin: 1rem;
 }
 .cont:hover {
   border: 2px solid rgb(255, 166, 0);
@@ -13,11 +15,29 @@
 
 .image {
   display: flex;
-  height: 10rem;
+  height: 7rem;
   background-color: rgba(255, 166, 0, 0.484);
   justify-content: center;
   align-items: center;
 }
 img {
   width: 17rem;
+}
+
+.contText{
+  display: flex;
+  align-items:center;
+  justify-content:start;
+  flex-direction: column;
+  height: 100%;
+  text-align: justify;
+  padding: 1rem;
+ 
+}
+
+.text{
+  color:orange;
+  font-family: "Bruno Ace";
+  font-weight:500;
+  margin-right: 1rem;
 }

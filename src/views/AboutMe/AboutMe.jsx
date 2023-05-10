@@ -2,6 +2,7 @@ import React from "react";
 import style from "./AboutMe.module.css";
 import "animate.css";
 import ImageAboutMe from "../../components/Animation/ImageAboutMe";
+import Boton from "../../components/Boton/Boton";
 
 const AboutMe = () => {
   return (
@@ -27,9 +28,11 @@ const AboutMe = () => {
             skills will be a great addition to your team. If you are interested
             in my profile, I await your message to talk more in detail!
           </span>
+
+          <Boton text={'Skils'} link={"/skils"} />
         </div>
       </div>{" "}
-      {/* falta agregar  un boton hacia contact me!  */}
+     
     </div>
   );
 };
