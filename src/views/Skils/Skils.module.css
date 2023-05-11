@@ -3,19 +3,30 @@
 .contFather{
   display: flex;
   flex-direction: row;
-  align-items: center;
+  
   justify-content: center;
   background-size: cover;
   background-position: center;
   height: 100vh;
+  color: rgb(253, 86, 9);
+  font-family: 'Bruno Ace';
+  font-weight: bold;
 
 }
-.container{
-  display: flex;
+.container {
+  display: grid;
+  grid-template-rows: repeat(2, 1fr);
+  grid-template-columns: repeat(5, 1fr);
   min-width: 60%;
   min-height: 75%;
   position: absolute;
   background-color: rgba(31, 31, 31, 0.525);
   align-items: center;
+  justify-content: center;
   border-radius: 25% 10%;
+  align-self: center;
+}
+.contSkill{
+  width: 10rem;
+  margin: 1rem;
 }

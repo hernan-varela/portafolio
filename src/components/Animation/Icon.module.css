@@ -1,0 +1,20 @@
+.contSkill {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 1rem;
+  }
+  
+  .icon {
+    width: 10rem;
+    margin-bottom: 1rem;
+    transition: all 0.2s ease-out;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1); /* Agregado: sombra para el efecto de flotar */
+  }
+  
+  .icon:hover {
+    transform: translateY(-5px); /* Actualizado: el efecto flotante se logra con translate */
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.2); /* Actualizado: incrementa la sombra para el efecto de flotar */
+  }
+  
+  

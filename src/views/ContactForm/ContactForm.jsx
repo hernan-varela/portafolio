@@ -18,6 +18,7 @@ function ContactForm() {
     setEmail("");
     setText("");
     setName("");
+    setPhone("")
   };
 
   return (
@@ -25,43 +26,46 @@ function ContactForm() {
       className={`${style.contFather} animate__animated animate__bounceInDown`}
     >
       <div className={style.container}>
-        <form onSubmit={handleSubmit}>
-          <label>
-            Nombre:
+
+
+        <form className={style.form} onSubmit={handleSubmit}>
+          <h2 className={style.text}>Contact me!!</h2>
+         <div className={style.contLabels} >
+         <label className={style.text}>
+            Name :
             <input
               type="text"
               value={name}
               onChange={(event) => setName(event.target.value)}
             />
           </label>
-          <label>
-            Teléfono:
+          <label className={style.text}>
+            Phone number : 
             <input
               type="text"
               value={phone}
               onChange={(e) => setPhone(e.target.value)}
             />
           </label>
-          <label>
-            Email:
+          <label className={style.text}>
+            Email :
             <input
               type="email"
               value={email}
               onChange={(event) => setEmail(event.target.value)}
             />
           </label>
-          <br />
-          <label>
-            Texto:
+          
+          
+         </div>
+         <label className={style.text}>
+            Message :
             <textarea
               value={text}
               onChange={(event) => setText(event.target.value)}
             />
-          </label>
-          <br />
-
-          <br />
-          <button type="submit">Enviar mensaje</button>
+          </label >
+          <button className={style.btn} type="submit">Send </button>
         </form>
       </div>
     </div>
