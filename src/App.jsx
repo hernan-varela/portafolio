@@ -9,6 +9,7 @@ import TsPracticle from "./components/Animation/TsPracticle";
 import AboutMe from "./views/AboutMe/AboutMe";
 import Skils from "./views/Skils/Skils";
 import ContactForm from "./views/ContactForm/ContactForm";
+import Resume from "./views/Resume/Resume";
 
 function App() {
   return (
@@ -49,6 +50,8 @@ function App() {
           <Route path="/skils" element={<div><Skils/></div>} />
 
           <Route path="/contact" element={<div><ContactForm/></div>} />
+
+          <Route path="/resume" element={<div><Resume/></div>} />
 
 
         </Routes>

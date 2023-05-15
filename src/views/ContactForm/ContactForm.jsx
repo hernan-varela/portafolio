@@ -18,7 +18,7 @@ function ContactForm() {
     setEmail("");
     setText("");
     setName("");
-    setPhone("")
+    setPhone("");
   };
 
   return (
@@ -26,46 +26,48 @@ function ContactForm() {
       className={`${style.contFather} animate__animated animate__bounceInDown`}
     >
       <div className={style.container}>
-
-
         <form className={style.form} onSubmit={handleSubmit}>
           <h2 className={style.text}>Contact me!!</h2>
-         <div className={style.contLabels} >
-         <label className={style.text}>
-            Name :
-            <input
-              type="text"
-              value={name}
-              onChange={(event) => setName(event.target.value)}
-            />
-          </label>
-          <label className={style.text}>
-            Phone number : 
-            <input
-              type="text"
-              value={phone}
-              onChange={(e) => setPhone(e.target.value)}
-            />
-          </label>
-          <label className={style.text}>
-            Email :
-            <input
-              type="email"
-              value={email}
-              onChange={(event) => setEmail(event.target.value)}
-            />
-          </label>
-          
-          
-         </div>
-         <label className={style.text}>
-            Message :
-            <textarea
-              value={text}
-              onChange={(event) => setText(event.target.value)}
-            />
-          </label >
-          <button className={style.btn} type="submit">Send </button>
+          <div className={style.contLabels}>
+            <label className={style.text}>
+              Name :
+              <input
+                type="text"
+                value={name}
+                onChange={(event) => setName(event.target.value)}
+              />
+            </label>
+            <label className={style.text}>
+              Phone number :
+              <input
+                type="text"
+                value={phone}
+                onChange={(e) => setPhone(e.target.value)}
+              />
+            </label>
+            <label className={style.text}>
+              Email :
+              <input
+                type="email"
+                value={email}
+                onChange={(event) => setEmail(event.target.value)}
+              />
+            </label>
+          </div>
+
+          <div className= {style.contTextAerea} >
+            <label className={style.text}>
+              Message :
+              <textarea
+                value={text}
+                onChange={(event) => setText(event.target.value)}
+              />
+            </label>
+          </div >
+
+          <button className={style.btn} type="submit">
+            Send{" "}
+          </button>
         </form>
       </div>
     </div>

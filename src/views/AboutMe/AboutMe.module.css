@@ -10,12 +10,13 @@
 }
 .container {
   display: flex;
-  max-width: 70%;
-  min-height: 75%;
+  width: 70%;
+  height: 75%;
   position: absolute;
   background-color: rgba(31, 31, 31, 0.525);
   align-items: center;
   border-radius: 25% 10%;
+  overflow: hidden;
 }
 
 .text {

@@ -3,7 +3,6 @@ import style from "./Education.module.css";
 import "animate.css";
 import logoUnaj from "../../assets/images/logo-transparente.png";
 import logoHenry from "../../assets/images/logo-henry-white-lg.png";
-import logoEdison from "../../assets/images/intEdison.jpg"
 import CardStudy from "../../components/cardStudy/CardStudy";
 const text =
   "I am a 2nd year student of Computer Engineering at the Arturo Jauretche National University, where I am developing my skills as a programmer and acquiring fundamental knowledge in the area of ​​technology.";
@@ -14,7 +13,7 @@ const urlUnaj =
 const Education = () => {
   return (
     <div
-      className={`${ style.contFather } animate__animated animate__bounceInDown`}
+      className={`${ style.contFather } animate__animated animate__backInUp`}
     >
       <div className={ style.container }>
         <CardStudy image={ logoUnaj } text={ text } url={ urlUnaj } />

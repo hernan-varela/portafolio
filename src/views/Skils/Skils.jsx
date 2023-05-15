@@ -15,16 +15,16 @@ import trelloIcon from "../../assets/images/trelloIcon.png";
 const Skils = () => {
   return (
     <div
-      className={`${style.contFather} animate__animated animate__bounceInDown`}
+      className={`${style.contFather} animate__animated animate__flash`}
     >
-      <h4>Skils</h4>
+    
       <div className={style.container}>
 
         
 
         <div className={style.contSkill}>
           <JavascriptIcon />
-          <p>Javascript</p>
+         
         </div>
 
         <div className={style.contSkill}>
@@ -38,13 +38,13 @@ const Skils = () => {
 
         <div className={style.contSkill}>
           <ReactIcon />
-          <p>React</p>
+         
         </div>
        
 
         <div className={style.contSkill}>
           <MongoIcon />
-          <p>Mongo db</p>
+          
         </div>
 
         <div className={style.contSkill}>
@@ -58,7 +58,7 @@ const Skils = () => {
 
         <div className={style.contSkill}>
           <GitIcon />
-          <p>Github</p>
+          
         </div>
 
         <div className={style.contSkill}>
